@@ -26,7 +26,11 @@ var Canvas = require('flow-view').Canvas,
    }
 
 var canvas = new Canvas('drawing', {
-  dataListURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/html-elements.json'
+  nodeSelector: {
+    dataList: {
+      URL: 'http://g14n.info/flow-view/examples/colors.json'
+    }
+  }
 })
 
 canvas.render(view)
