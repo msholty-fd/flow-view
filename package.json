@@ -98,6 +98,7 @@
     "pre-commit": "1.x",
     "react-proxy": "1.x",
     "rimraf": "2.x",
+    "riot": "^3.0.1",
     "standard": "8.x",
     "tape": "^4.6.2",
     "uglify-js": "^2.6.4"
